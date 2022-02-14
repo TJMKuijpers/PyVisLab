@@ -9,3 +9,5 @@
 <li> Bar chart</li>
 <li> line chart </li>
 ></ul>
+<br>
+<h5> Data exploration </h5><br>
