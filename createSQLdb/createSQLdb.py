@@ -33,3 +33,17 @@ def execute_read_query(connection,query):
         return result
     except Error as e:
         print(f"The error '{e}' occurred")
+
+def write_pandas_dataframe_to_db(connection,pd_df,table_name):
+    cursor = connection.cursor()
+    try:
+        cursor.execute('''SELECT * FROM '''+table_name)
+        if cursor.fetchone().__len__()!=0:
+            # table exists
+            print('table exists')
+        else:
+            # add the table
+            pd_df.to_sql(table_name,connection,if_exists='append',index=False)
+            print('Table with name %s added' % table_name)
+    except Error as e:
+        print(f"The error '{e}' occurred")
