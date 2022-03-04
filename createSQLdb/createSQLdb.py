@@ -47,3 +47,14 @@ def write_pandas_dataframe_to_db(connection,pd_df,table_name):
             print('Table with name %s added' % table_name)
     except Error as e:
         print(f"The error '{e}' occurred")
+        
+ def read_txt_files(path_to_file,separator):
+    return pd.read_csv(file=path_to_file,sep=separator)
+
+def transform_df_to_dict(dataframe):
+    return dataframe.to_dict()
+
+def load_json_file(path_to_json):
+    with open(path_to_json) as f:
+        data=json.load(f)
+    return data
