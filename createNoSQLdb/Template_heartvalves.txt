@@ -1,0 +1,53 @@
+Name:,
+Project:,
+Lead_author:
+Lead_author_last_name:,
+Lead_principal_investigator:,
+Lead_principal_investigator_last_name:,
+Date:,
+DOI:,
+Description:,
+
+Implantation:{
+		Implantation_method:,
+		Implantation_method_procedure:,
+		Implantation_position:,
+		Scaffold:,
+		Stent_present:,
+		Stent_type:,
+		Scaffold_design_class:
+	},
+Tissue_engineered_heart_valves:{
+		Number_of_samples:,
+		Material_mesh:,
+		Material_mesh_abbreviation:,
+		Material_thickness:,
+		Material_thickness_unit:,
+		Specific_gravity:,
+		Material_coating:,
+		Material_coating_abbreviation:,
+		Material_coating_moleculair_weight:,
+		Material_coating_manufacture:,
+		Material_coating_manufacture_country:,
+		Sew_material:,
+		Sew_material_manufacturer:,
+		Stent_presence:,
+		Stent_information:{
+			Type:,
+			Length:,
+			Length_unit:,
+			Outside_diameter:,
+			Outside_diameter_unit:,
+			Note:,
+			Manufacturer:,
+			Manufacturer_country:
+			},
+		Cell_seeded:,
+		Cell_seeding_info:{
+			Cell_type:,
+			Organism:,
+			Cell_passage:,
+			Seeding_density:
+			},
+		Cell_Seeding_Carrier:
+	}
