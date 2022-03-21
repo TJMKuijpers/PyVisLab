@@ -43,11 +43,14 @@ Tissue_engineered_heart_valves:{
 			Manufacturer_country:
 			},
 		Cell_seeded:,
+		Number_of_cell_seeded_samples:,
 		Cell_seeding_info:{
 			Cell_type:,
+			Cell_type_abbreviation:,
 			Organism:,
 			Cell_passage:,
-			Seeding_density:
+			Seeding_density:,
+			Seeding_density_unit:
 			},
 		Cell_Seeding_Carrier:
 	}
